@@ -1,6 +1,9 @@
 import FeaturedSection from "@/components/FeaturedSection";
 import HeroSection from "@/components/HeroSection";
-import Testimonial from "@/components/testimonial";
+import Testimonial from "@/components/Testimonial";
+import Team from "@/components/Team";
+
+
 
 export default function Home() {
   return (
@@ -8,7 +11,8 @@ export default function Home() {
       <h2>page. tsx</h2>
       <HeroSection/>
       <FeaturedSection/>
-     <Testimonial  />
+     <Testimonial/>
+     < Team />
     </main>
   );
 }
