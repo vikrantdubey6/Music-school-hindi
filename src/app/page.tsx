@@ -2,6 +2,7 @@ import FeaturedSection from "@/components/FeaturedSection";
 import HeroSection from "@/components/HeroSection";
 import Testimonial from "@/components/Testimonial";
 import Team from "@/components/Team";
+import Footer from "@/components/Footer";
 
 
 
@@ -13,6 +14,7 @@ export default function Home() {
       <FeaturedSection/>
      <Testimonial/>
      < Team />
+     <Footer />
     </main>
   );
 }
