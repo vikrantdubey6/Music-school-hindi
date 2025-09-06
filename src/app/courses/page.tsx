@@ -18,7 +18,7 @@ function page() {
                     className="text-xl font-bold text-neutral-600 dark:text-white"
                   >
                     {course.title}
-                    <Meteors number={20} />
+                    
                   </CardItem>
 
                   <CardItem
@@ -27,7 +27,7 @@ function page() {
                     className="text-neutral-500 text-sm max-w-sm mt-2 dark:text-neutral-300"
                   >
                     {course.description}
-                    <Meteors number={20} />
+                   
                   </CardItem>
 
                   <CardItem translateZ="100" className="w-full mt-4">
@@ -38,7 +38,7 @@ function page() {
                       className="h-60 w-full object-cover rounded-xl group-hover/card:shadow-xl"
                       alt={course.title}
                     />
-                    <Meteors number={20} />
+                    
                   </CardItem>
 
                   <div className="flex justify-between items-center mt-20">
@@ -49,7 +49,7 @@ function page() {
                       className="px-4 py-2 rounded-xl text-xs font-normal dark:text-white"
                     >
                       Try now →
-                      <Meteors number={20} />
+                     
                     </CardItem>
 
                     <CardItem
